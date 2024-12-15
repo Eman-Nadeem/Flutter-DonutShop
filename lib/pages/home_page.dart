@@ -38,8 +38,8 @@ class _HomePageState extends State<HomePage> {
         appBar: _appBar(),
         body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 36.0, vertical: 18.0),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 36.0, vertical: 18.0),
               child: Row(
                   children: [
                     Text(
@@ -73,11 +73,11 @@ class _HomePageState extends State<HomePage> {
                   //burger tab
                   BurgerTab(),
                   //smoothie tab
-                  SmoothieTab(),
+                  const SmoothieTab(),
                   //pancake tab
-                  PancakeTab(),
+                  const PancakeTab(),
                   //pizza tab
-                  PizzaTab(),
+                  const PizzaTab(),
                 ],
               )
             )
