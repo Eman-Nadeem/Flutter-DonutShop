@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
                   //burger tab
                   BurgerTab(),
                   //smoothie tab
-                  const SmoothieTab(),
+                  SmoothieTab(),
                   //pancake tab
                   const PancakeTab(),
                   //pizza tab
